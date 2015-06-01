@@ -1,41 +1,41 @@
---// English language translations
+--// French language translations by DrumSlayer
 -- Letters prefixed with a '%' (ex: %s, %i) are substituted for variables during run time, don't break those
 -- '\n' and '\r\n' are used to create a new line, try to keep those in similar spots to preserve spacing
 
-local l = gPhone.createLanguage( "english" )
+local l = gPhone.createLanguage( "french" )
 
 -- General
-l.title = "The Garry Phone"
-l.slide_unlock = "slide to unlock"
-l.update_check_fail = "Connection to the gPhone site has failed, please report this on the Workshop page and verify your version!"
-l.kick = "[gPhone]: ILLEGAL REQUEST - ERROR: 0x01B4D0%s"
-l.feature_deny = "The selected feature has not been implemented yet"
-l.error = "Error"
+l.title = "Le Telephone Garry"
+l.slide_unlock = "Glisse pour deverouiller"
+l.update_check_fail = "Impossible de se connecter au site gPhone, Verifiez votre version et postez un commentaire sur le WorkShop!"
+l.kick = "[gPhone]: REQUETE ILLEGALE - ERREUR: 0x01B4D0%s"
+l.feature_deny = "Cette fonction n'a pas encore été implantée"
+l.error = "Erreur"
 
-l.default = "Default"
+l.default = "Defaut"
 l.language = "Language"
-l.settings = "Settings"
+l.settings = "Parametres"
 l.general = "General"
-l.wallpaper = "Wallpaper"
-l.homescreen = "Homescreen"
-l.about = "About"
-l.color = "Color"
+l.wallpaper = "Fond D'écran"
+l.homescreen = "Menu Principal"
+l.about = "A propos"
+l.color = "Couleur"
 
-l.phone_confis = "Your phone has been confiscated!"
-l.unable_to_open = "You are unable to open the gPhone at this moment"
+l.phone_confis = "Votre téléphone a été confisqué!"
+l.unable_to_open = "Il est impossible d'ouvrir votre gPhone pour le moment"
 
 -- Homescreen
-l.battery_dead = "Your phone has run out of battery and died! Recharging..."
-l.battery_okay = "Recharged!"
+l.battery_dead = "Votre téléphone n'a plus de batterie et elle est morte! Rechargement..."
+l.battery_okay = "Rechargée!"
 l.service_provider = "Garry"
-l.folder_fallback = "Folder"
-l.invalid_folder_name = "Invalid"
+l.folder_fallback = "Dossier"
+l.invalid_folder_name = "Invalide"
 
 -- Tutorial
-l.tut_welcome = "Welcome to the Garry Phone! This is a brief introduction about the basics of the phone"
-l.tut_folders = "Use the homescreen to create folders and move around apps just like a real iPhone"
-l.tut_delete = "Hold down the right mouse button to toggle app deletion mode"
-l.tut_text = "Text your friends in game using the messages app! Click the right side to delete the conversation"
+l.tut_welcome = "Bienvenue dans gPhone! Voici un bref tutoriel des fonctions!"
+l.tut_folders = "Utilisez le menu principal pour creer des dossiers et bouger les applications, comme un iPhone!"
+l.tut_delete = "Restez appuyer sur le clic gauche pour faire apparaitre le menu de gestion de l'application"
+l.tut_text = "Parlez a vos amis dans le jeu grace a la messagerie! Cliquez sur le coté droit pour supprimer"
 l.tut_wallpaper = "Change your home and lock screen wallpapers using pictures from your computer"
 l.tut_music = "Stream music from the internet or off your computer with the music app!"
 l.tut_translate = "Want to help translate? Add me on Steam and you could be in the phone's credits!"
@@ -43,20 +43,20 @@ l.tut_coders = "Coders: Check the wiki on Github and the example app included to
 l.tut_end = "That only scratches the surface of the phone's features. Have fun!!"
 
 -- App base
-l.app_error = "[App Error]"
-l.app_deny_gm = "This app cannot be used in this gamemode!"
-l.app_deny_group = "You are not in the correct group to use this app!"
+l.app_error = "[Erreur D'application]"
+l.app_deny_gm = "Cette application ne peut etre lancée sur ce mode de jeu!"
+l.app_deny_group = "Vous n'êtes pas dans le bon rang pour ouvrir cette application!"
 
 -- Requests
 l.confirmation = "Confirmation"
-l.confirm = "Confirm"
-l.request = "Request"
-l.deny = "Deny"
-l.accept = "Accept"
-l.no = "No"
-l.yes = "Yes"
+l.confirm = "Confirmer"
+l.request = "Demande"
+l.deny = "Refuser"
+l.accept = "Accepter"
+l.no = "Non"
+l.yes = "Oui"
 l.okay = "Okay"
-l.response_timeout = "%s did not respond to your request in time"
+l.response_timeout = "%s na pas repondu a votre requete a temps"
 
 l.accept_fallback = "%s has accepted your request to use %s"
 l.phone_accept = "%s has accepted your call"
